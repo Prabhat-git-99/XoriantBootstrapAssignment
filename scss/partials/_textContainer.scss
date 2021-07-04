@@ -1,0 +1,25 @@
+.about-container {
+    margin-top: 5rem;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: $font-h1;
+    font-weight: $font-bold;
+}
+p {
+    font-size: $font-p;
+    font-weight: $font-bold;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    line-height: 1.6rem;
+    // color: $about-font-color;
+    @include set-font-color();
+    // color: $about-font-color;
+}
+
+.our-mission {
+    text-align: center;
+    padding: 20px;
+}

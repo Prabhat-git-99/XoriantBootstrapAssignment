@@ -1,0 +1,15 @@
+.btn {
+    border: 2px solid black;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: $font-bold;
+}
+
+.submit-btn {
+    @extend .btn;
+    background: green;
+}
+.clear-btn {
+    background: red;
+}
